@@ -1,0 +1,32 @@
+{
+  "name": "krezitheme",
+  "displayName": "krezitheme",
+  "description": "Dark Contrast theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Krezithem",
+        "uiTheme": "vs-dark",
+        "path": "./Themes/Kreziped-Theme-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icons/krezicon.png",
+  "author": {
+    "name": "David Adrian Ochoa",
+    "email": "krezipedtech@gmail.com",
+    "url": "https://github.com/Krezitech/"
+  },
+  "repository": {
+    "url": "git remote add origin git@github.com:Krezitech/theme.git",
+    "type": "git"
+  },
+  "publisher": "krezitech"
+}
